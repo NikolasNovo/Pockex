@@ -3,5 +3,5 @@ main = "src/index.js"
 compatibility_date = "2026-01-31"
 
 kv_namespaces = [
-  { binding = "RATES_KV", id = "PUT_YOUR_KV_ID_HERE" }
+  { binding = "RATES_KV", id = "cc831bcc0432494a9ceac88f8eb02d32" }
 ]
