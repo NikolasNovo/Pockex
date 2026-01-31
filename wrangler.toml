@@ -1,0 +1,7 @@
+name = "pockex-rates"
+main = "src/index.js"
+compatibility_date = "2026-01-31"
+
+kv_namespaces = [
+  { binding = "RATES_KV", id = "PUT_YOUR_KV_ID_HERE" }
+]
