@@ -23,6 +23,8 @@ const translations = {
     "nav.workflow": "Workflow",
     "nav.teams": "Who it's for",
     "nav.faq": "FAQ",
+    "nav.privacy": "Privacy",
+    "nav.terms": "Terms",
     "nav.download": "Download",
     "nav.menu": "Open menu",
     "nav.main": "Main menu",
@@ -94,7 +96,7 @@ const translations = {
     "faq.a3": "Pockex supports backups to easily transfer and preserve the database.",
     "footer.tagline": "Cash desk and exchange in one interface.",
     "footer.contact": "Contact",
-    "footer.developed": "Developed by QuantumBox."
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   ru: {
     "meta.title": "Pockex — касса и обмен в одном экране",
@@ -103,6 +105,8 @@ const translations = {
     "nav.workflow": "Сценарий",
     "nav.teams": "Кому подходит",
     "nav.faq": "FAQ",
+    "nav.privacy": "Политика конфиденциальности",
+    "nav.terms": "Условия использования",
     "nav.download": "Скачать",
     "nav.menu": "Открыть меню",
     "nav.main": "Главное меню",
@@ -174,7 +178,7 @@ const translations = {
     "faq.a3": "Pockex поддерживает резервные копии, чтобы удобно переносить и сохранять базу.",
     "footer.tagline": "Касса и обмен в одном интерфейсе.",
     "footer.contact": "Контакт",
-    "footer.developed": "Разработано QuantumBox."
+    "footer.developed": "Разработчик QuantumBox by Nikolas Novo."
   },
   de: {
     "meta.title": "Pockex — Kasse und Wechsel in einem Bildschirm",
@@ -183,6 +187,8 @@ const translations = {
     "nav.workflow": "Ablauf",
     "nav.teams": "Zielgruppe",
     "nav.faq": "FAQ",
+    "nav.privacy": "Datenschutz",
+    "nav.terms": "Nutzungsbedingungen",
     "nav.download": "Download",
     "nav.menu": "Menü öffnen",
     "nav.main": "Hauptmenü",
@@ -254,7 +260,7 @@ const translations = {
     "faq.a3": "Pockex unterstützt Backups, um die Datenbank zu übertragen und zu sichern.",
     "footer.tagline": "Kasse und Wechsel in einer Oberfläche.",
     "footer.contact": "Kontakt",
-    "footer.developed": "Entwickelt von QuantumBox."
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   es: {
     "meta.title": "Pockex — caja y cambio en una sola pantalla",
@@ -263,6 +269,8 @@ const translations = {
     "nav.workflow": "Flujo",
     "nav.teams": "Para quién",
     "nav.faq": "FAQ",
+    "nav.privacy": "Privacidad",
+    "nav.terms": "Términos",
     "nav.download": "Descargar",
     "nav.menu": "Abrir menú",
     "nav.main": "Menú principal",
@@ -334,7 +342,7 @@ const translations = {
     "faq.a3": "Pockex admite copias de seguridad para transferir y preservar la base.",
     "footer.tagline": "Caja y cambio en una sola interfaz.",
     "footer.contact": "Contacto",
-    "footer.developed": "Desarrollado por QuantumBox."
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   zh: {
     "meta.title": "Pockex — 收银与兑换一屏搞定",
@@ -343,6 +351,8 @@ const translations = {
     "nav.workflow": "流程",
     "nav.teams": "适用人群",
     "nav.faq": "常见问题",
+    "nav.privacy": "隐私政策",
+    "nav.terms": "使用条款",
     "nav.download": "下载",
     "nav.menu": "打开菜单",
     "nav.main": "主菜单",
@@ -414,7 +424,7 @@ const translations = {
     "faq.a3": "Pockex 支持备份，便于迁移和保存数据库。",
     "footer.tagline": "收银与兑换一体化界面。",
     "footer.contact": "联系",
-    "footer.developed": "由 QuantumBox 开发。"
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   ja: {
     "meta.title": "Pockex — 両替とレジを一画面で",
@@ -423,6 +433,8 @@ const translations = {
     "nav.workflow": "フロー",
     "nav.teams": "対象",
     "nav.faq": "FAQ",
+    "nav.privacy": "プライバシー",
+    "nav.terms": "利用規約",
     "nav.download": "ダウンロード",
     "nav.menu": "メニューを開く",
     "nav.main": "メインメニュー",
@@ -494,7 +506,7 @@ const translations = {
     "faq.a3": "Pockex はバックアップに対応し、移行と保存が簡単です。",
     "footer.tagline": "レジと両替を一つのインターフェースに。",
     "footer.contact": "お問い合わせ",
-    "footer.developed": "QuantumBox が開発。"
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   ko: {
     "meta.title": "Pockex — 환전·금고를 한 화면에",
@@ -503,6 +515,8 @@ const translations = {
     "nav.workflow": "워크플로",
     "nav.teams": "대상",
     "nav.faq": "FAQ",
+    "nav.privacy": "개인정보처리방침",
+    "nav.terms": "이용 약관",
     "nav.download": "다운로드",
     "nav.menu": "메뉴 열기",
     "nav.main": "메인 메뉴",
@@ -574,7 +588,7 @@ const translations = {
     "faq.a3": "Pockex는 백업을 지원해 데이터베이스를 쉽게 이전하고 보존할 수 있습니다.",
     "footer.tagline": "환전과 금고를 하나의 인터페이스로.",
     "footer.contact": "문의",
-    "footer.developed": "QuantumBox에서 개발."
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   hi: {
     "meta.title": "Pockex — एक स्क्रीन में कैश डेस्क और एक्सचेंज",
@@ -583,6 +597,8 @@ const translations = {
     "nav.workflow": "प्रवाह",
     "nav.teams": "किसके लिए",
     "nav.faq": "FAQ",
+    "nav.privacy": "गोपनीयता",
+    "nav.terms": "उपयोग की शर्तें",
     "nav.download": "डाउनलोड",
     "nav.menu": "मेनू खोलें",
     "nav.main": "मुख्य मेनू",
@@ -654,7 +670,7 @@ const translations = {
     "faq.a3": "Pockex बैकअप सपोर्ट करता है ताकि डेटाबेस आसानी से ट्रांसफर और सुरक्षित हो सके।",
     "footer.tagline": "एक इंटरफ़ेस में कैश डेस्क और एक्सचेंज।",
     "footer.contact": "संपर्क",
-    "footer.developed": "QuantumBox द्वारा विकसित।"
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   },
   tr: {
     "meta.title": "Pockex — tek ekranda kasa ve döviz",
@@ -663,6 +679,8 @@ const translations = {
     "nav.workflow": "Akış",
     "nav.teams": "Kimler için",
     "nav.faq": "SSS",
+    "nav.privacy": "Gizlilik",
+    "nav.terms": "Kullanım şartları",
     "nav.download": "İndir",
     "nav.menu": "Menüyü aç",
     "nav.main": "Ana menü",
@@ -734,7 +752,7 @@ const translations = {
     "faq.a3": "Pockex yedeklemeyi destekler; veritabanını taşımak ve saklamak kolaydır.",
     "footer.tagline": "Tek arayüzde kasa ve döviz.",
     "footer.contact": "İletişim",
-    "footer.developed": "QuantumBox tarafından geliştirildi."
+    "footer.developed": "Developer QuantumBox by Nikolas Novo."
   }
 };
 
