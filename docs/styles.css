@@ -547,9 +547,9 @@ img {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: minmax(200px, 1fr) auto minmax(220px, 1fr);
   gap: 18px;
-  align-items: center;
+  align-items: start;
 }
 
 .footer-brand {
@@ -569,10 +569,16 @@ img {
 }
 
 .footer-links {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, auto));
+  gap: 24px;
+  justify-content: center;
   color: var(--muted);
+}
+
+.footer-links-col {
+  display: grid;
+  gap: 8px;
 }
 
 .footer-meta {
@@ -580,6 +586,8 @@ img {
   gap: 6px;
   color: var(--muted);
   font-size: 13px;
+  justify-items: end;
+  text-align: right;
 }
 
 .btn {
@@ -625,26 +633,11 @@ img {
   }
 
   .site-nav {
-    position: absolute;
-    top: 70px;
-    right: 24px;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    padding: 16px 20px;
-    flex-direction: column;
-    gap: 12px;
-    display: none;
-    box-shadow: 0 20px 40px rgba(12, 47, 111, 0.16);
-  }
-
-  .site-nav.is-open {
-    display: flex;
+    display: none !important;
   }
 
   .menu-toggle {
-    display: inline-flex;
-    margin-left: 10px;
+    display: none;
   }
 
   .header-actions {
@@ -660,14 +653,29 @@ img {
   }
 
   .hero-grid,
-  .teams-grid,
-  .cta-card {
+  .teams-grid {
     grid-template-columns: 1fr;
   }
 
   .floating-card {
     position: static;
     margin-top: 16px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 22px;
+  }
+
+  .footer-links {
+    grid-template-columns: repeat(2, minmax(120px, auto));
+  }
+
+  .footer-meta {
+    justify-items: center;
+    text-align: center;
   }
 }
 
